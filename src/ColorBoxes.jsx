@@ -1,7 +1,8 @@
-import React from 'react'
-
+import ColorBox from "./ColorBox"
 export default function ColorBoxes() {
   return (
-    <div>ColorBoxes</div>
+    <div>
+        <ColorBox/>
+    </div>
   )
 }
