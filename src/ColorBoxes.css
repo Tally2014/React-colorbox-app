@@ -1,5 +1,7 @@
 .Colorboxes {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
